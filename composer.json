@@ -1,0 +1,22 @@
+{
+    "name": "hevia/app-salon",
+    "description": "Proyecto App Salon PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hevia\\AppSalon\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
+        }
+    },
+    
+    
+    "authors": [
+        {
+            "name": "heviahxc",
+            "email": "heviamc@gmail.com"
+        }
+    ],
+    "require": {}
+}
