@@ -11,13 +11,17 @@ class LoginController{
     public static function logout(){
         echo "logout";
     }
-    public static function olvide(){
-        echo "olvide";
+    public static function olvide(Router $router){
+        $router->render('auth/olvide-password', [
+
+        ]);
     }
     public static function recuperar(){
         echo "recuperar";
     }
-    public static function crear(){
-        echo "recuperar";
+    public static function crear(Router $router){
+        $router->render('auth/crear-cuenta', [
+
+        ]);
     }
 }
