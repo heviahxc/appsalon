@@ -7,7 +7,8 @@
             "Hevia\\AppSalon\\": "src/",
             "MVC\\" : "./",
             "Controllers\\" : "./controllers",
-            "Model\\" : "./models"
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
         }
     },
     
@@ -18,5 +19,7 @@
             "email": "heviamc@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^6.7"
+    }
 }

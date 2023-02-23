@@ -23,6 +23,9 @@ $router->post('/recuperar',[LoginController::class, 'recuperar']);
 $router->get('/crear-cuenta',[LoginController::class, 'crear']);
 $router->post('/crear-cuenta',[LoginController::class, 'crear']);
 
+$router->get('/confirmar-cuenta', [LoginController::class, 'confirmar']);
+$router->get('/mensaje', [LoginController::class, 'mensaje']);
+
 
 
 
