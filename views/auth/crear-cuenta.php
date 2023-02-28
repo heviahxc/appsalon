@@ -11,7 +11,7 @@
             id="nombre"
             placeholder="Tu Nombre"
             name="nombre"
-            value="<?php echo s($usuario->nombre) ?>"
+          
             >
     </div>
 
