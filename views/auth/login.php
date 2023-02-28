@@ -11,7 +11,7 @@
             id="email"
             placeholder="Tu Email"
             name="email"
-            value="<?php echo s($auth->email); ?>"
+            
             >
     </div>
 
