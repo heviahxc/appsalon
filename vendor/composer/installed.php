@@ -3,7 +3,7 @@
         'name' => 'hevia/app-salon',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '8d8a99e43052299ce558d41c5fbe57fc68508b5f',
+        'reference' => 'eee5df597e5260084068fd0c5ed3d065faae8cfc',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'hevia/app-salon' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '8d8a99e43052299ce558d41c5fbe57fc68508b5f',
+            'reference' => 'eee5df597e5260084068fd0c5ed3d065faae8cfc',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
