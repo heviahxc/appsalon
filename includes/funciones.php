@@ -27,3 +27,9 @@ function isAuth() : void{
         header('Location: /');
     }
 }
+
+function isAdmin() : void{
+    if (!isset($_SESSION['admin'])) {
+        header('Location: /');
+    }
+}

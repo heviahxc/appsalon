@@ -1,4 +1,4 @@
-<h1 class="nombre-pagina">Panel de administracion</h1>
+<h1 class="nombre-pagina">Panel de administración</h1>
 
 <?php
 include_once __DIR__ . '/../../templates/barra.php';
@@ -56,7 +56,12 @@ include_once __DIR__ . '/../../templates/barra.php';
                 
                <p class="total">Total: <span>$ <?php echo $total ?></span></p>
                 
-
+                <form action="/api/eliminar" method="POST">
+                <input type="hidden" name="id" value="<?php echo $cita->id; ?>">
+                <input type="submit" class="boton-eliminar"
+                value="Eliminar">
+                </form>
+          
             <?php }
              } //Fin foreach 
             ?>

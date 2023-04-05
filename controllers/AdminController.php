@@ -8,6 +8,8 @@ use MVC\Router;
 class AdminController{
 
     public static function index(Router $router){
+
+    isAdmin();    
     
     $fecha = $_GET['fecha'] ?? date('Y-m-d');
     $fechas = explode('-', $fecha);
