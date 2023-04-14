@@ -218,3 +218,13 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/node,windows,macos,linux
+
+src/
+vendor/
+node_modules/
+appsalon_mvc.sql
+gulpfile.js
+package.json
+package-lock.json
+.DS_Store
+.env
